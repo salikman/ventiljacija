@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>hello</title>
+
+<link rel="stylesheet" href="css/libs/jquery.fancybox.css">
+<link rel="stylesheet" href="css/libs/slick.css">
+<link rel="stylesheet" href="css/libs/font-awesome.min.css">
+<link rel="stylesheet" href="css/libs/easy-responsive-tabs.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>    
+    <!-- Header -->
+    <header class="header">
+	<div id="nav" class="navbar">
+		<div class="container">
+			<div class="navbar-wrap">
+				<!-- Logo -->
+				<div class="navbar__brand">
+					<a href="#">
+						<img class="logo" src="img/logo.png" alt="logo">
+						<!-- <img class="logo-alt" src="img/logo-alt.png" alt="logo"> -->
+					</a>
+				</div>
+				<!-- /Logo -->
+				<!-- Collapse nav button -->
+				<div class="navbar__collapse">
+					<span></span>
+				</div>
+				<!-- /Collapse nav button -->
+				<!--  Main navigation  -->
+				<ul class="navbar__menu">
+					<li class="active"><a href="#">О компании</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Оборудование</a></li>
+					<li><a href="#">Объекты</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<!-- /Main navigation -->
+				<div class="navbar__buttons">
+					<div class="dropdown-phone">
+						<a href="#" class="dropbtn">
+							<i class="fa fa-phone"></i>
+							(096) 480 08 89
+						</a>
+						<div class="phone-content">
+							<a href="#">(096) 480 08 89</a>
+							<a href="#">(096) 480 08 89</a>
+							<a href="#">(096) 480 08 89</a>
+						</div>
+					</div>
+					<a class="btn btn--primary navbar__btn" data-fancybox data-src="#request-call" href="javascript:;">
+						<i class="fa fa-phone"></i>
+						Заказать звонок</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+    <!-- /.Header -->
+    <!-- Main -->
+    <main>
+        <section class="intro">
+    <div class="container">
+        <div class="intro__text">
+            <h1>Вентиляция и кондиционирование</h1>
+            <p>Проектирование, монтаж, обслужевание</p>
+            <a href="#" class="btn btn--transparent intro__btn">Получить расчет</a>
+        </div>
+    </div>
+</section>
+        <section class="services">
+    <div class="container">
+        <h2 class="section-title services__title">Наши услуги</h2>
+        <div class="services__list">
+            <div class="services__item">
+                <div class="img">
+                    <img class="img--primary" src="img/services-icon/icon-1.png">
+                    <img class="img--white" src="img/services-icon/icon-1--white.png">
+                </div>
+                <div class="heading">
+                    <span>Проектирование систем</span>
+                </div>
+            </div>
+            <div class="services__item">
+                <div class="img">
+                    <img class="img--primary" src="img/services-icon/icon-2.png">
+                    <img class="img--white" src="img/services-icon/icon-2--white.png">
+                </div>
+                <div class="heading">
+                    <span>Услуги по монтажу</span>
+                </div>
+            </div>
+            <div class="services__item">
+                <div class="img">
+                    <img class="img--primary" src="img/services-icon/icon-3.png">
+                    <img class="img--white" src="img/services-icon/icon-3--white.png">
+                </div>
+                <div class="heading">
+                    <span>Пуско-наладочные работы</span>
+                </div>
+            </div>
+            <div class="services__item">
+                <div class="img">
+                    <img class="img--primary" src="img/services-icon/icon-4.png">
+                    <img class="img--white" src="img/services-icon/icon-4--white.png">
+                </div>
+                <div class="heading">
+                    <span>Сервисное обслуживание</span>
+                </div>
+            </div>
+            <div class="services__item">
+                <div class="img">
+                    <img class="img--primary" src="img/services-icon/icon-5.png">
+                    <img class="img--white" src="img/services-icon/icon-5--white.png">
+                </div>
+                <div class="heading">
+                    <span>Производство воздуховодов</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="complex">
+    <div class="container">
+        <h2 class="section-title complex__title">Комплексные решения</h2>
+        <div class="complex__list">
+            <div class="complex__item">
+                <div class="complex__img">
+                    <img src="img/complex-img/img-1.jpg" alt="img 1">
+                </div>
+                <div class="complex__info">
+                    <div class="header">
+                        <h3 class="title">Фитнес клуб «ENERGY» (500м2)</h3>
+                        <div class="price">11 300 $</div>
+                    </div>
+                    <div class="body">
+                        <ul class="feature">
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-1.png"></div>
+                                <strong>Назначение помещения:</strong>фитнес клуб</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-2.png"></div>
+                                <strong>Общая площадь:</strong>530м2</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-3.png"></div>
+                                <strong>Количество посетителей:</strong>до 50 людей</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-4.png"></div>
+                                <strong>Естественный приток воздуха:</strong>до 2000м3/час</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-5.png"></div>
+                                <strong>Вытяжная система:</strong>до 5400 м3/час</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-6.png"></div>
+                                <strong>Холодопроизводительность:</strong>15,5 кВт.</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-7.png"></div>
+                                <strong>Теплопроизводительность:</strong>18,5 кВт.</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-8.png"></div>
+                                <strong>Общее енергопотребление:</strong>до 12кВт</li>
+                        </ul>
+                        <div class="text">
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <a href="#" class="btn btn--primary complex__btn">Читать подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="complex__item">
+                <div class="complex__img">
+                    <img src="img/complex-img/img-2.jpg" alt="img 2">
+                </div>
+                <div class="complex__info">
+                    <div class="header">
+                        <h3 class="title">Райффайзен Банк Аваль (390м2)</h3>
+                        <div class="price">16 300 $</div>
+                    </div>
+                    <div class="body">
+                        <ul class="feature">
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-1.png"></div>
+                                <strong>Назначение помещения:</strong>фитнес клуб</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-2.png"></div>
+                                <strong>Общая площадь:</strong>530м2</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-3.png"></div>
+                                <strong>Количество посетителей:</strong>до 50 людей</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-4.png"></div>
+                                <strong>Естественный приток воздуха:</strong>до 2000м3/час</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-5.png"></div>
+                                <strong>Вытяжная система:</strong>до 5400 м3/час</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-6.png"></div>
+                                <strong>Холодопроизводительность:</strong>15,5 кВт.</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-7.png"></div>
+                                <strong>Теплопроизводительность:</strong>18,5 кВт.</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-8.png"></div>
+                                <strong>Общее енергопотребление:</strong>до 12кВт</li>
+                        </ul>
+                        <div class="text">
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <a href="#" class="btn btn--primary complex__btn">Читать подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="complex__item">
+                <div class="complex__img">
+                    <img src="img/complex-img/img-3.jpg" alt="img 3">
+                </div>
+                <div class="complex__info">
+                    <div class="header">
+                        <h3 class="title">Ресторан «БАШНЯ АМУРА» (900м2)</h3>
+                        <div class="price">19 800 $</div>
+                    </div>
+                    <div class="body">
+                        <ul class="feature">
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-1.png"></div>
+                                <strong>Назначение помещения:</strong>фитнес клуб</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-2.png"></div>
+                                <strong>Общая площадь:</strong>530м2</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-3.png"></div>
+                                <strong>Количество посетителей:</strong>до 50 людей</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-4.png"></div>
+                                <strong>Естественный приток воздуха:</strong>до 2000м3/час</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-5.png"></div>
+                                <strong>Вытяжная система:</strong>до 5400 м3/час</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-6.png"></div>
+                                <strong>Холодопроизводительность:</strong>15,5 кВт.</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-7.png"></div>
+                                <strong>Теплопроизводительность:</strong>18,5 кВт.</li>
+                            <li class="feature__item">
+                                <div class="feature__icon"><img src="img/complex-icon/icon-8.png"></div>
+                                <strong>Общее енергопотребление:</strong>до 12кВт</li>
+                        </ul>
+                        <div class="text">
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+                            <p>Для данного объекта была применена весьма интересная и рабочая схема вентиляции и хорошего кондиционирования воздуха. Как правило для помещений всегда есть ограничение по електричеству. И данный объект не стал исключением. За счёт вытяжной системы мы решаем вопрос...</p>
+
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <a href="#" class="btn btn--primary complex__btn">Читать подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="link complex__link">Смотреть все обьекты</a>
+    </div>
+</section>
+        <section class="products">
+    <div class="container">
+        <h2 class="section-title products__title">Товары в наличии</h2>
+        <div id="products-tabs" class="products__block">
+            <ul class="products__tabs resp-tabs-list hor_1">
+                <li>Вентиляция </li>
+                <li>Кондиционирование</li>
+                <li>Воздухоочистители</li>
+            </ul>
+            <div class="products__content resp-tabs-container hor_1">
+                <div>
+                    <div class="products__list">
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-1.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">Trion Concole</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">12 991 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-2.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Series 120</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">39 124 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-3.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION HE Plus 1400</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">20 137 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-4.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Series 60</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">25 891 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-5.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION HE Plus 2000</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">24 491 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-6.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Space Saver</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">33 824 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-7.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Air Boss T2002</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">120 891 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-8.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Air Boss T1001</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">87 891 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="products__list">
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-4.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Series 60</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">25 891 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-5.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION HE Plus 2000</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">24 491 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-8.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Air Boss T1001</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">87 891 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-1.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">Trion Concole</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">12 991 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-2.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Series 120</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">39 124 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-3.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION HE Plus 1400</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">20 137 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>               
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-6.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Space Saver</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">33 824 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-7.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Air Boss T2002</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">120 891 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div>
+                    <div class="products__list">
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-3.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION HE Plus 1400</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">20 137 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-4.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Series 60</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">25 891 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-5.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION HE Plus 2000</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">24 491 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-1.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">Trion Concole</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">12 991 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-2.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Series 120</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">39 124 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-6.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Space Saver</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">33 824 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-7.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Air Boss T2002</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">120 891 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                        <div class="products__item">
+                            <div class="img">
+                                <img src="img/products-img/img-8.png">
+                            </div>
+                            <div class="text">
+                                <h4 class="title">TRION Air Boss T1001</h4>
+                                <p>Єлектростатический коммерческий воздухоочиститель</p>
+                                <div class="price">87 891 грн</div>
+                                <a href="#" class="link products__link">Под заказ, 3 дня</a>
+                            </div>
+                            <a class="btn btn--primary products__btn" data-fancybox data-src="#order-item" href="javascript:;">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn btn--transparent products__btn-all">Перейти в каталог</a>
+    </div>
+</section>
+        <section class="number-jobs">
+    <div class="bg"></div>
+    <div class="container">
+        <h2 class="number-jobs__title section-title">Наша компания в цифрах</h2>
+        <div class="number-jobs__list">
+            <div class="number-jobs__item">
+                <span>0</span>
+                <p>лет на рынке</p>
+            </div>
+            <div class="number-jobs__item">
+                <span>200</span>
+                <p>завершенных обьектов</p>
+            </div>
+            <div class="number-jobs__item">
+                <span>20</span>
+                <p>в процессе строительства</p>
+            </div>
+            <div class="number-jobs__item">
+                <span>100</span>
+                <p>обьектов в обслуживании</p>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="works">
+    <div class="container">
+        <h2 class="section-title works__title">Выполненные объекты</h2>
+        <div class="works__list">
+            <div class="works__item">
+                <div class="img">
+                    <a rel="group1" href="img/works-img/image_1.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_1.jpg"/>
+                    </a>
+                    <a rel="group1" href="img/works-img/image_1.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_1.jpg"/>
+                    </a>
+                    <a rel="group1" href="img/works-img/image_1.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_1.jpg"/>
+                    </a>
+                </div>
+                <div class="title">Промышленное производство</div>
+            </div>
+            <div class="works__item">
+                <div class="img">
+                    <a rel="group2" href="img/works-img/image_2.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_2.jpg"/>
+                    </a>
+                    <a rel="group2" href="img/works-img/image_2.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_2.jpg"/>
+                    </a>
+                    <a rel="group2" href="img/works-img/image_2.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_2.jpg"/>
+                    </a>
+                </div>
+                <div class="title">Офисные комплексы</div>
+            </div>
+            <div class="works__item">
+                <div class="img">
+                    <a rel="group3" href="img/works-img/image_3.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_3.jpg"/>
+                    </a>
+                    <a rel="group3" href="img/works-img/image_3.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_3.jpg"/>
+                    </a>
+                    <a rel="group3" href="img/works-img/image_3.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_3.jpg"/>
+                    </a>
+                </div>
+                <div class="title">Рестораны</div>
+            </div>
+            <div class="works__item">
+                <div class="img">
+                    <a rel="group4" href="img/works-img/image_4.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_4.jpg"/>
+                    </a>
+                    <a rel="group4" href="img/works-img/image_4.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_4.jpg"/>
+                    </a>
+                    <a rel="group4" href="img/works-img/image_4.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_4.jpg"/>
+                    </a>
+                </div>
+                <div class="title">Автозаправочные комплексы</div>
+            </div>
+            <div class="works__item">
+                <div class="img">
+                    <a rel="group5" href="img/works-img/image_5.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_5.jpg"/>
+                    </a>
+                    <a rel="group5" href="img/works-img/image_5.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_5.jpg"/>
+                    </a>
+                    <a rel="group5" href="img/works-img/image_5.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_5.jpg"/>
+                    </a>
+                </div>
+                <div class="title">Торговельные комплексы</div>
+            </div>
+            <div class="works__item">
+                <div class="img">
+                    <a rel="group6" href="img/works-img/image_6.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_6.jpg"/>
+                    </a>
+                    <a rel="group6" href="img/works-img/image_6.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_6.jpg"/>
+                    </a>
+                    <a rel="group6" href="img/works-img/image_6.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_6.jpg"/>
+                    </a>
+                </div>
+                <div class="title">Складские комплексы</div>
+            </div>
+            <div class="works__item">
+                <div class="img">
+                    <a rel="group7" href="img/works-img/image_7.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_7.jpg"/>
+                    </a>
+                    <a rel="group7" href="img/works-img/image_7.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_7.jpg"/>
+                    </a>
+                    <a rel="group7" href="img/works-img/image_7.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_7.jpg"/>
+                    </a>
+                </div>
+                <div class="title">Бассейны</div>
+            </div>
+            <div class="works__item">
+                <div class="img">
+                    <a rel="group8" href="img/works-img/image_8.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_8.jpg"/>
+                    </a>
+                    <a rel="group8" href="img/works-img/image_8.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_8.jpg"/>
+                    </a>
+                    <a rel="group8" href="img/works-img/image_8.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_8.jpg"/>
+                    </a>
+                </div>
+                <div class="title">Автосалоны и автомойки</div>
+            </div>
+            <div class="works__item">
+                <div class="img">
+                    <a rel="group9" href="img/works-img/image_9.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_9.jpg"/>
+                    </a>
+                    <a rel="group9" href="img/works-img/image_9.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_9.jpg"/>
+                    </a>
+                    <a rel="group9" href="img/works-img/image_9.jpg" data-fancybox="image">
+                        <img src="img/works-img/image_9.jpg"/>
+                    </a>
+                </div>
+                <div class="title">Грунтовый теплообменник</div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="about">
+    <div class="container">
+        <div class="about-wrap">
+            <div class="about__info">
+                <h2 class="section-title about__title">О нас</h2>
+                <div class="about__text">
+                    <p>Компания «Вентиляция Украины» работает на рынке с 2003 года и является динамично развивающейся компанией, решающей сложные задачи в области обеспечения комфортного микроклимата помещений различного назначения.</p>
+                    <p>Мы оказываем весь комплекс профессиональных инжиниринговых услуг в области проектирования, комплектации, монтажа, пуско-наладочных работ, гарантийного и сервисного обслуживания систем вентиляции, кондиционирования, воздушного отопления.</p>
+                    <p><strong>Проектирование:</strong><br>Проектный отдел нашей компании занимается разработкой и проектированием систем вентиляции, кондиционирования, воздушного отопления любой сложности.</p>
+                    <p><strong>Монтаж и сервис:</strong><br>Реализуются эти проекты сертифицированной монтажной группой, которая берет на себя заботу клиентов об исправности и обслуживании  поставляемого нами оборудования. Многолетний опыт работы, множество реализованных проектов, высококвалифицированный штат сотрудников дает нам возможность реализовывать самые смелые проекты.</p>
+                    <p><strong>Оборудование:</strong><br>Огромный модельный ряд оборудования предлагаемого нашей  компанией, позволяет предложить клиентам наиболее оптимальное и сбалансированное решение управления микроклиматом.</p>
+                    <div class="gradient"></div>
+                </div>
+            </div>
+            <div class="about__img">
+                <img src="img/about-img/img-1.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="review">
+    <div class="container">
+        <h2 class="section-title review__title">Что говорят наши клиенты</h2>
+        <div id="slider-review" class="review__list">
+            <div class="review__item">
+                <div class="header">
+                    <div class="smile"><i class="fa fa-smile-o"></i></div>
+                    <div class="author">
+                        <div class="name">Александра Измайленко</div>
+                        <div class="social">Отзыв Инстаграм</div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Я люблю работать с серьезной компанией, которая дорожит своей репутацией. А у Вас это есть. Заказ был исполнен быстро и точно, что позволило сделать работу в срок. Большое спасибо, за бесплатную, подробную консультацию по системе вентиляции. Буду рад дальнейшему сотрудничеству.</p>
+                </div>
+            </div>
+            <div class="review__item">
+                <div class="header">
+                    <div class="smile"><i class="fa fa-smile-o"></i></div>
+                    <div class="author">
+                        <div class="name">Валентин Стрикало</div>
+                        <div class="social">Отзыв Фейсбук</div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Работают быстро и четко. Цена дешевле чем у конкурентов. На запросы об информации реагируют молниеносно, предоставляя нужною информацию. Лично благодарен Ольге Василенко (руководителя отдела) за оперативную и качественную работу.</p>
+                </div>
+            </div>
+            <div class="review__item">
+                <div class="header">
+                    <div class="smile"><i class="fa fa-smile-o"></i></div>
+                    <div class="author">
+                        <div class="name">Ресторан МАФИЯ</div>
+                        <div class="social">Отзыв с сайта</div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Заказывали 3 выхода и 4 аэраторов коричневого цвета. В наличие было, цены оказались самые лучшие. Магазин хороший, рекомендую. Большое спасибо менеджеру Ольге!Заказ выполнен в оговоренные сроки.</p>
+                </div>
+            </div>
+            <div class="review__item">
+                <div class="header">
+                    <div class="smile"><i class="fa fa-smile-o"></i></div>
+                    <div class="author">
+                        <div class="name">Александра Измайленко</div>
+                        <div class="social">Отзыв Инстаграм</div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Я люблю работать с серьезной компанией, которая дорожит своей репутацией. А у Вас это есть. Заказ был исполнен быстро и точно, что позволило сделать работу в срок. Большое спасибо, за бесплатную, подробную консультацию по системе вентиляции. Буду рад дальнейшему сотрудничеству.</p>
+                </div>
+            </div>
+            <div class="review__item">
+                <div class="header">
+                    <div class="smile"><i class="fa fa-smile-o"></i></div>
+                    <div class="author">
+                        <div class="name">Валентин Стрикало</div>
+                        <div class="social">Отзыв Фейсбук</div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Работают быстро и четко. Цена дешевле чем у конкурентов. На запросы об информации реагируют молниеносно, предоставляя нужною информацию. Лично благодарен Ольге Василенко (руководителя отдела) за оперативную и качественную работу.</p>
+                </div>
+            </div>
+            <div class="review__item">
+                <div class="header">
+                    <div class="smile"><i class="fa fa-smile-o"></i></div>
+                    <div class="author">
+                        <div class="name">Ресторан МАФИЯ</div>
+                        <div class="social">Отзыв с сайта</div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Заказывали 3 выхода и 4 аэраторов коричневого цвета. В наличие было, цены оказались самые лучшие. Магазин хороший, рекомендую. Большое спасибо менеджеру Ольге!Заказ выполнен в оговоренные сроки.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="brand">
+    <div class="container">
+        <div class="brand__list">
+            <div class="brand__item"><img src="img/brand-img/brand-1.jpg" alt=""></div>
+            <div class="brand__item"><img src="img/brand-img/brand-2.jpg" alt=""></div>
+            <div class="brand__item"><img src="img/brand-img/brand-3.jpg" alt=""></div>
+            <div class="brand__item"><img src="img/brand-img/brand-4.jpg" alt=""></div>
+            <div class="brand__item"><img src="img/brand-img/brand-5.jpg" alt=""></div>
+            <div class="brand__item"><img src="img/brand-img/brand-6.jpg" alt=""></div>
+        </div>
+    </div>
+</section>
+        <section class="feedback"> 
+    <div class="bg"></div>
+    <div class="container">
+        <div class="feedback-wrap">
+            <div class="feedback__info" data-aos="fade-right" data-aos-offset="200">
+                <h2 class="section-title feedback__title">Запишитесь на бесплатную консультацию</h2>
+                <div class="feedback__contacts">
+                    <span>Наш магазин:</span>
+                    <ul>
+                        <li>(044) 539-40-55</li>
+                        <li>nekrasov@vent-ukr.com.ua</li>
+                        <li>г. Киев, Гарматная, 6</li>
+                    </ul>
+                </div>
+                <div class="feedback__schedule">
+                    <span>Наш магазин:</span>
+                    <ul>
+                        <li>Пн-Пт.: с 9:00 до 18:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="feedback__form" data-aos="flip-right" data-aos-offset="400">
+                <form>
+                    <h6 class="form__title">Оставить заявку</h6>
+                    <p class="form__subtitle">Оставьте заявку и свяжемся с вами бесплатной консультации</p>
+                    <input class="feedback__input" type="text" id="" placeholder="Имя">
+                    <input class="feedback__input" type="tel" id="" placeholder="Телефон">
+                    <input class="feedback__btn btn btn--primary" type="submit" value="Отправить">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <!-- /.Main -->
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+        <p>© Vent-ukr 2006—2020. Вентиляция Украины.</p>
+        <p>Все права защищены. Частичное или полное копирование информации сайта возможно только с разрешения правообладателя. Политика конфиденциальности</p>
+    </div>
+</footer>
+    <!-- /.Footer -->
+    <!-- Modal -->
+    <div id="request-call" class="request-call">
+    <form class="form">
+        <h2>Заказать звонок</h2>
+        <input type="text" placeholder="Имя">
+        <input type="tel" placeholder="Номер телефона">
+        <input type="submit" placeholder="Отправить">
+    </form>
+</div>
+
+<div id="order-item" class="order-item">
+    <form class="form">
+        <h2>Заказать товар</h2>
+        <input type="text" placeholder="Имя">
+        <input type="tel" placeholder="Номер телефона">
+        <textarea placeholder="Сообщение"></textarea>
+        <input type="submit" placeholder="Отправить">
+    </form>
+</div>
+    <!-- /.Modal -->
+    <!-- JS -->
+    <script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+
+    <!-- /.JS -->
+</body>
+</html>
