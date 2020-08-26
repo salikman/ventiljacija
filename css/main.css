@@ -818,6 +818,34 @@ footer {
   display: none;
   max-width: 500px;
   padding: 30px; }
+  .request-call ul, .order-item ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px; }
+    .request-call ul li, .order-item ul li {
+      margin-bottom: 5px; }
+      .request-call ul li i, .order-item ul li i {
+        margin-right: 10px;
+        font-size: 20px;
+        color: #2b72d8; }
+      .request-call ul li a, .order-item ul li a {
+        font-size: 22px;
+        color: #000; }
   .request-call .form h2, .order-item .form h2 {
     margin-bottom: 20px;
     font-size: 24px;
