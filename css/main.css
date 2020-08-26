@@ -1524,6 +1524,7 @@ footer {
       -webkit-justify-content: center;
           -ms-flex-pack: center;
               justify-content: center;
+      padding-top: 5px;
       height: 170px;
       text-align: center; }
       .products__item .img img {
@@ -1539,6 +1540,10 @@ footer {
         margin-bottom: 15px;
         font-size: 14px;
         font-weight: 400; }
+      .products__item .text .title-link {
+        color: #000; }
+        .products__item .text .title-link:hover {
+          text-decoration: underline; }
     .products__item .title {
       margin-bottom: 15px;
       font-weight: 700; }
